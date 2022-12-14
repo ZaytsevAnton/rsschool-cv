@@ -1,0 +1,262 @@
+@import "./reset.css";
+
+body{
+min-width: 1240px;
+background-color: rgb(54, 53, 53); 
+}
+.container{
+    background-color: rgb(54, 53, 53);
+    min-width: 1240px;
+}
+.header-wrapper{
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    align-items: center;
+    height: 400px;
+
+}
+
+.img-header{
+    width: 200px;
+    height: 200px;
+    
+    margin-left: 120px;
+    background-color: rgb(54, 53, 53);
+    align-items: center;
+}
+
+.my-photo{
+   
+    border-radius: 100px; 
+    border: 3px #666; 
+    box-shadow: 0 0 40px #666; 
+  
+}
+
+.inforight{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+.me{
+    font-size: 20px;
+    color: rgb(183, 165, 165);
+    font-family: 'Inter';
+     font-weight: 700;
+    line-height: 20px;
+    margin-left: 262px;  
+    border-radius: 100px; 
+
+
+   
+}
+.me1{
+    font-size: 15px;
+    color: rgb(183, 165, 165);
+    font-family: 'Inter';
+     font-weight: 700;
+    line-height: 25px;
+    margin-left: 330px;
+  
+    
+    
+   
+
+   
+
+}
+
+
+/* end header block ____________________________ */
+
+
+
+.main{
+ 
+}
+
+
+
+.A23{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+
+
+    
+}
+.contact-block{
+ margin-right: 30px;
+
+}
+
+.ABOUTME{
+    
+    margin-right: 460px;
+    font-size: 20px;
+    color: rgb(183, 165, 165);
+    font-family: 'Inter';
+    font-weight: 700;
+    line-height: 50px;
+    margin-left: 150px;
+}
+.about-text{
+    font-size: 15px;
+    color: rgb(183, 165, 165);
+    font-family: 'Inter';
+    line-height: 30px;
+    
+}
+
+
+
+.section-contacts{
+   
+}
+.contacts{
+    font-size: 20px;
+    color:  rgb(183, 165, 165);
+    font-family: 'Inter';
+    font-weight: 700;
+    line-height: 40px;
+    margin-left: 150px;
+   
+    
+}
+.contact-block{
+  
+}
+
+.wrapper-cont{
+    margin-top: 40px;
+    margin-left: 70px;
+    font-family: 'Inter';
+    font-weight: 400;
+    width: 340px;
+   
+
+}
+
+.cont-link{
+    font-size: 15px;
+    margin-left: 4px;
+    color: rgb(183, 165, 165);
+    font-family: 'Inter';
+    border: 1px #666; 
+    box-shadow: 0 0 7px #666; 
+    border-radius: 100px; 
+}
+.cont-link:hover{
+    color: rgb(119, 119, 119);
+
+
+    /* section contact end__________________________*/
+
+
+}
+
+
+
+.titel-skill{
+    margin-top: 100px;
+    font-size: 20px;
+    color: rgb(183, 165, 165);
+    font-family: 'Inter';
+    font-weight: 700;
+    line-height: 50px;
+    margin-left: 150px;
+    
+
+}
+.list-skill{
+
+    
+    margin-left: 70px;
+    font-size: 15px;
+    font-family: 'Inter';
+    font-weight: 400;
+    color: rgb(183, 165, 165);
+    margin-bottom: 40px;
+    
+
+}
+
+
+
+/* section skill end _____________________*/
+
+
+
+.lang{
+    margin-top: 100px;
+    font-size: 20px;
+    color: rgb(183, 165, 165);
+    font-family: 'Inter';
+    font-weight: 700;
+    line-height: 50px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+   
+
+}
+
+.Lang-list{
+
+    margin-left: 70px;
+    font-size: 15px;
+    font-family: 'Inter';
+    font-weight: 400;
+    color: rgb(183, 165, 165);
+    margin-bottom: 70px;
+
+}
+
+
+/* lang end  ___________________*/
+
+
+.info-right{
+    display: flex;
+    justify-content: center;
+}
+.footer-wrapper{
+  background-color: rgb(58, 56, 56);;
+}
+
+.footer-block{
+   
+    height: 50px;
+    color: rgb(204, 190, 190);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fot-git{
+    font-size: 16px;
+    color:  rgb(183, 165, 165);
+    font-family: 'Inter';
+}
+
+.fot-scopes{
+    font-size: 16px;
+    color:  rgb(183, 165, 165);
+    font-family: 'Inter';
+    margin-right: 40px;
+}
+.fot-scopes:hover{
+    color: rgb(119, 119, 119);
+    order: 1px #666; 
+    box-shadow: 0 0 7px #666; 
+    border-radius: 100px; 
+}
+
+.fot-git:hover{
+    color: rgb(119, 119, 119);
+    border: 1px #666; 
+    box-shadow: 0 0 7px #666; 
+    border-radius: 100px; 
+}
