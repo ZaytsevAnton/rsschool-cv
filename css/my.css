@@ -4,10 +4,14 @@ body{
 min-width: 1240px;
 background-color: rgb(54, 53, 53); 
 }
+
+
 .container{
     background-color: rgb(54, 53, 53);
     min-width: 1240px;
 }
+
+
 .header__wrapper{
     background-color: rgb(54, 53, 53);
     display: flex;
@@ -227,7 +231,8 @@ background-color: rgb(54, 53, 53);
 }
 
 .footer__block{
-   
+    background-color: rgb(58, 56, 56);
+
     height: 50px;
     color: rgb(204, 190, 190);
     display: flex;
