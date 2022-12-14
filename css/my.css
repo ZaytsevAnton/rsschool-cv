@@ -37,12 +37,12 @@ background-color: rgb(54, 53, 53);
   
 }
 
-.inforight{
+.Myname{
     
     display: flex;
     flex-direction: column;
     justify-content: center;
- 
+   
 }
 
 .me{
@@ -51,7 +51,7 @@ background-color: rgb(54, 53, 53);
     font-family: 'Inter';
      font-weight: 700;
     line-height: 20px;
-    margin-left: 262px;  
+    margin-left: 262px; 
     border-radius: 100px; 
 
 
@@ -85,33 +85,34 @@ background-color: rgb(54, 53, 53);
 
 
 .A23{
-    margin-top: 60px;
+  
     display: flex;
-    justify-content: space-between;
+   
 
 
     
 }
 .contact-block{
- margin-right: 30px;
+
 
 }
 
 .ABOUTME{
     
-    margin-right: 460px;
+    margin-left: 370px;
     font-size: 20px;
     color: rgb(183, 165, 165);
     font-family: 'Inter';
     font-weight: 700;
     line-height: 50px;
-    margin-left: 150px;
+    
 }
 .about-text{
     font-size: 15px;
     color: rgb(183, 165, 165);
     font-family: 'Inter';
     line-height: 30px;
+    margin-left: 215px;
     
 }
 
