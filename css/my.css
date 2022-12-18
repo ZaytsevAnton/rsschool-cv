@@ -1,14 +1,18 @@
 @import "./reset.css";
 
 body{
-min-width: 1240px;
+min-width: 1000px;
+
 background-color: rgb(54, 53, 53); 
 }
 
 
+
 .container{
     background-color: rgb(54, 53, 53);
-    min-width: 1240px;
+    min-width: 1000px;
+    margin: 0 auto;
+    padding-left: 70px;
 }
 
 
@@ -237,11 +241,12 @@ background-color: rgb(54, 53, 53);
     height: 50px;
     color: rgb(204, 190, 190);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+   
 }
-
 .fot__git{
+   
     font-size: 16px;
     color:  rgb(183, 165, 165);
     font-family: 'Inter';
@@ -251,7 +256,14 @@ background-color: rgb(54, 53, 53);
     font-size: 16px;
     color:  rgb(183, 165, 165);
     font-family: 'Inter';
-    margin-right: 40px;
+    
+}
+.fot__2022{
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 16px;
+    color:  rgb(183, 165, 165);
+    font-family: 'Inter';
 }
 .fot__scopes:hover{
     color: rgb(119, 119, 119);
